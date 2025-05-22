@@ -1,0 +1,15 @@
+   {
+     "builds": [
+       {
+         "src": "your_script.py",
+         "use": "@vercel/python"
+       }
+     ],
+     "routes": [
+       {
+         "src": "/(.*)",
+         "dest": "your_script.py"
+       }
+     ]
+   }
+   
